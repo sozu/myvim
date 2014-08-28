@@ -35,26 +35,12 @@ if has('vim_starting') && isdirectory(bundleDir)
 	"----------------------------------------------------------------
 	" neobundle cleanup
 	"----------------------------------------------------------------
-	call neobundle#end
-
-	filetype off
-	filetype indent off
-
-	execute "set runtimepath+=" . bundleDir
-
-	call neobundle#begin(neobundleDir)
-
-	" should use self management of neobundle?
-	"NeoBundleFetch 'Shougo/neobundle.vim
-
-	"----------------------------------------------------------------
-	" neobundle plugins
-	"----------------------------------------------------------------
-
-	call neobundle#end
+	call neobundle#end()
 
 	filetype on
 	filetype indent on
+
+    NeoBundleCheck
 endif
 
 "----------------------------------------------------------------
