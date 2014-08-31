@@ -1,2 +1,6 @@
 " ウィンドウ最大化
 simalt ~x
+
+set guifont=Consolas:h10
+set guifontwide=MS_Gothic:h10
+
