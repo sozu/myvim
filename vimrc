@@ -31,6 +31,7 @@ if has('vim_starting') && isdirectory(bundleDir)
 	"----------------------------------------------------------------
 	NeoBundle 'scrooloose/nerdtree'
 	NeoBundle 'thinca/vim-quickrun'
+	NeoBundle 'Shougo/unite.vim'
 
 	"----------------------------------------------------------------
 	" neobundle cleanup
