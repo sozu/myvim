@@ -32,6 +32,9 @@ if has('vim_starting') && isdirectory(bundleDir)
 	NeoBundle 'scrooloose/nerdtree'
 	NeoBundle 'thinca/vim-quickrun'
 	NeoBundle 'Shougo/unite.vim'
+	NeoBundle 'plasticboy/vim-markdown'
+	NeoBundle 'kannokanno/previm'
+	NeoBundle 'tyru/open-browser.vim'
 
 	"----------------------------------------------------------------
 	" neobundle cleanup
@@ -56,6 +59,11 @@ set tw=0
 set noundofile
 
 "execute "cd " . confDir
+
+"----------------------------------------------------------------
+" filetype settings
+"----------------------------------------------------------------
+au BufRead,BufNewFile *.md set filetype=markdown
 
 "----------------------------------------------------------------
 " custom settings for each environment
