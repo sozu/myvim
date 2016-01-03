@@ -35,6 +35,7 @@ if has('vim_starting') && isdirectory(bundleDir)
 	NeoBundle 'plasticboy/vim-markdown'
 	NeoBundle 'kannokanno/previm'
 	NeoBundle 'tyru/open-browser.vim'
+	NeoBundle 'fatih/vim-go'
 
 	"----------------------------------------------------------------
 	" neobundle cleanup
